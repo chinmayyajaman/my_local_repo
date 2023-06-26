@@ -1,0 +1,77 @@
+basic command in linux
+
+pwd
+ls
+ls -lrt || ll
+cat
+touch
+vi
+cd
+mkdir
+rm -r
+cp
+mv
+chmod
+head 
+tail
+find ***
+grep ***
+sed ***
+awk ***
+cut
+date
+basename
+dirname
+free
+top
+du
+df
+ps
+kill
+uname
+cat /etc/os-release
+who 
+whoami
+echo
+sudo
+
+
+======> CRON TAB <=============
+
+*	*	*	*	*
+MIN	HOUR	DOM	MONTH	DOW
+
+MIN - 0-59
+
+HOUR - 0-23
+
+DOM - Day Of Month - 1-31
+
+MONTH - 1-12
+
+DOW - Day of Week - 0-6
+
+gpasswd -a - to add single/1 user to group
+gpasswd -M - to add multiple user to group
+ln 	-->hardlink  eg. ln sample.txt hardlink.txt
+ln -s 	--> softlink eg. ln -s sample.txt softlink.txt
+tar -cvf dirx.tar dirx  ==c-create,v=verberose,f=forcefully
+tar -xvf dirx.tar  ==x-extract
+gzip 
+gunzip
+wget <'url'>
+
+chmod
+chown
+chgrp
+
+hypervisor = hypervisor is software or firmware that create and runs virtual machine
+virtual machine = vm is a physical resource that use software instaed of physical computer to run and deploy programs
+virtualization = the technique of splitting physical resources into many logical resources
+
+wc filename
+wc -l
+wc -c
+wc -w
+free
+
