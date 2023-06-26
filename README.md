@@ -1,0 +1,2 @@
+# notes
+self study
