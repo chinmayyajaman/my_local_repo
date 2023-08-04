@@ -1,0 +1,11 @@
+#!/bin/bash
+
+time_stamp="$(date +'%d-%B-%y %I:%M%p')"
+echo "$time_stamp"
+
+if git pull; then
+	git add --all && git commit -m "$* ${time_stamp}" && git push
+else
+	echo 'Error while pulling the changes'
+fi
+
