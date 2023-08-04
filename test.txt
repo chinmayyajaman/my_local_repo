@@ -2,4 +2,7 @@
 2>/dev/null
 $>/dev/null
 
+< 
+<<<
+
 new line.
